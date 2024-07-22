@@ -9,6 +9,6 @@ namespace DateConversion.DTOs
     public class DateRecordDto
     {
         public DateTime OriginalDate { get; set; }
-        public object? ConvertedDate { get; set; }
+        public object? DiffDate { get; set; }
     }
 }

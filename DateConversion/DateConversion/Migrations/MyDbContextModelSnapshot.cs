@@ -30,7 +30,7 @@ namespace DateConversion.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("ConvertedDate")
+                    b.Property<string>("DiffDate")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("OriginalDate")

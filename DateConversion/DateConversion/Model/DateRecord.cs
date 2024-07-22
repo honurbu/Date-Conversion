@@ -10,6 +10,6 @@ namespace DateConversion.Model
     {       
         public int Id { get; set; }
         public DateTime OriginalDate { get; set; }
-        public string? ConvertedDate { get; set; }
+        public string? DiffDate { get; set; }
     }
 }
